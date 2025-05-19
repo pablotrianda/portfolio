@@ -17,7 +17,7 @@ func porfolio(w http.ResponseWriter, r *http.Request) {
 		w.Header().Set("Content-Type", "text/plain; charset=utf-8")
 		fmt.Fprint(w, constants.Page())
 	} else {
-		fmt.Fprint(w, "<h1> This site is designed to be used from the terminal. Try 'curl localhost:8090'. </h1>")
+		fmt.Fprint(w, "<h1> This site is designed to be used from the terminal. Try 'curl ptrianda.com'. </h1>")
 	}
 }
 
