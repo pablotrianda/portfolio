@@ -1,0 +1,74 @@
+
+.terminal-container {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: 'JetBrains Mono';
+  font-size: 1.2rem;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  max-width: 90%;
+  margin: 2rem auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  white-space: nowrap;
+  overflow-x: auto;
+}
+
+.terminal {
+  background-color: #1e1e1e;
+  color: #d4d4d4;
+  font-family: 'JetBrains Mono';
+  font-size: 1.1rem;
+  padding: 1rem;
+  border-radius: 8px;
+  max-width: 95%;
+  margin: 2rem auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+  overflow-x: auto;
+}
+
+.prompt {
+  color: #00ff00;
+}
+
+.cursor {
+  display: inline-block;
+  color: #00ff00;
+  animation: blink 1s step-start infinite;
+}
+
+@keyframes blink {
+  50% { opacity: 0; }
+}
+
+.hidden {
+  display: none;
+}
+
+pre {
+  white-space: pre-wrap;
+  color: #cccccc;
+  margin-top: 1rem;
+}
+
+.green { color: #00b300; font-weight: bold; }
+.yellow { color: #ffcc00; font-weight: bold; }
+.blue { color: #3399ff; }
+
+a{
+  color:"#ccc";
+}
+
+
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #04AA6D;} 
